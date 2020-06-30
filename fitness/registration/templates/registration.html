@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>
+REGISTRATION
+</title>
+</head>
+<link rel="stylesheet" type="text/css" href="register.css">
+<body>
+<script>
+function jubin()
+{
+	fname = myform.fname.value;
+	lname = myform.lname.value;
+alert("Registration Successfull "+fname +" " +lname);
+}
+</script>
+<h1 class = "rgstr">REGISTER</h1>
+<form name = "myform">
+<fieldset>
+<legend style="text-align: center;text-decoration: underline;"><h2>FILL OUT ALL DETAILS</h2></legend>
+
+
+
+<div class = "center">
+
+<label for="fname">NAME:-</label>
+<input type ="text" name="fname" id="fname" autofocus="ON" autocomplete="ON" placeholder="johny" align="center" required pattern="[A-Za-z]{8}">
+<br>
+<br>
+
+<label for="lname">SURNAME:-</label>
+<input type ="text" name="lname" id="lname"  autocomplete="ON" placeholder="johny" align="center" required class = "txt">
+<br>
+<br>
+
+
+
+
+
+<label for="password">PASSWORD:-</label>
+<input type ="password" name="password" id="password"  placeholder="abcd" required align="center" required class = "pwds">
+
+
+<br>
+<br>
+
+<label for="email">EMAIL-ID:-  <label>
+<input type="email" name="email" id="email" placeholder="abc@gmail.com" required class ="em">
+
+
+<br>
+<br>
+
+
+<label for="date">BIRTHDATE:-</date>
+<input type= "date" class="bdate">
+<br>
+<br>
+
+<h2>SELECT YOUR GENDER</h2>
+        <label for ="male"> MALE</label>
+        <input type="radio" name="GENDER" value="male" id="male" checked> <br>
+        <label for ="female"> FEMALE</label>
+         <input type="radio" name="GENDER" value="female" id ="female" class="fmale"><br>
+         <label for ="other">OTHER</label>
+        <input type="radio" name="GENDER" value="other" id="other" class="othrs"> <br>
+		<br>
+
+<label for ="state"><h2>CURRENT COUNTRY</label></h2>
+<select name ="STATE" class="drp">
+<option value="India">India </option>
+<option value="BANGLADESH">BANGLADESH </option>
+<option value="MALAYSIA">MALAYSIA</option>
+<option value="BRAZIL">BRAZIL </option>
+<option value="BELGIUM">BELGIUM </option>
+<option value="CANADA">CANADA </option>
+<option value="NIGERIA">NIGERIA </option>
+</select>
+<br>
+<br>
+</div>
+
+<div class = "sbmt">
+<button type="button" onclick="jubin()" class = "sbutton">REGISTER</button>
+</div>
+
+
+
+</fieldset>
+</body>
+</html>

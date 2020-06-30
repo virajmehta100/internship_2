@@ -1,0 +1,51 @@
+body{
+	background-image: url("static/login.png");
+}
+
+.details{
+	text-align: center;
+}
+
+input{
+	height: 30%;
+	width: 20%;
+
+}
+
+.details .reset{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 10%;
+	text-decoration: none;
+	border: none;
+	background-color: skyblue;
+	color: white;
+}
+
+.details .reset:hover{
+	transition: 0.5s;
+	background-color: #15c6e6;
+}
+
+.details .login{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 10%;
+	text-decoration: none;
+	border: none;
+	background-color: skyblue;
+	color: white;
+}
+
+.details .login:hover{
+	transition: 0.5s;
+	background-color: #15c6e6;
+}
+
+h2.user,.password{
+	font-weight: 500;
+}
